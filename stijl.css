@@ -1,0 +1,110 @@
+html {
+    background: white;
+    background-image: white;
+}
+
+body {
+    background: white;
+    color: black;
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+    padding-top: 0px;
+    margin-right: 10px;
+    padding-bottom: 20px;  
+    display: grid;
+    grid-template-columns: 1fr 3.5fr;
+    grid-template-areas: 
+            "naam midden";
+}
+
+nav {
+    display: contents;
+    position: static;
+}
+a {
+    text-decoration-line: overline;
+    color: #000000;
+    /*font-family: Hevetica, sans-serif;*/
+}
+a:hover {
+    color: #000000;
+    text-decoration-line: overline;
+}
+
+
+p {
+    line-height: 1.2;
+    display: block;
+    
+}
+
+@font-face{
+    font-family:"helvetica-neue-lt-std-93-black-extended-oblique";
+    src:url("https://candyfonts.com/wp-data/2019/04/06/51279/HelveticaNeueLTStd-BlkExO.otf") format("woff"),
+    url("https://candyfonts.com/wp-data/2019/04/06/51279/HelveticaNeueLTStd-BlkExO.otf") format("opentype"),
+    url("https://candyfonts.com/wp-data/2019/04/06/51279/HelveticaNeueLTStd-BlkExO.otf") format("truetype");
+}
+htm_tag{font-family:"helvetica-neue-lt-std-93-black-extended-oblique";font-size:45px;text-transform:none;color:#F32951}
+
+@font-face {
+    font-family: 'monument_extendedregular';
+    src: url('monumentextended-regular-webfont.woff2') format('woff2'),
+         url('monumentextended-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face{
+    font-family:"helvetica-neue-lt-std-93-black-extended";
+    src:url("https://candyfonts.com/wp-data/2019/04/06/51184/HelveticaNeueLTStd-BlkEx.otf") format("woff"),
+    url("https://candyfonts.com/wp-data/2019/04/06/51184/HelveticaNeueLTStd-BlkEx.otf") format("opentype"),
+    url("https://candyfonts.com/wp-data/2019/04/06/51184/HelveticaNeueLTStd-BlkEx.otf") format("truetype");
+}
+
+.naam {
+    font-family: "helvetica-neue-lt-std-93-black-extended";
+    font-size: 30px;
+    font-kerning: -2px;
+    line-height: 1.2;
+    text-transform:none;
+    color:rgb(0, 0, 0)}
+    
+
+.container {
+    position: relative;
+    text-align: center;
+    top: 5%;
+
+}
+
+.text {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "helvetica-neue-lt-std-93-black-extended";
+    color: rgb(252, 247, 0);
+    font-size: 200px;
+    font-kerning: -2px; 
+    line-height: 1.1;
+    text-align: center;
+   
+}
+
+.liggen {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    float: center;
+}
+
+.staan {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    float: center;
+    
+    
+}
