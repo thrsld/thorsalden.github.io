@@ -51,7 +51,7 @@ p {
 
 @font-face{
     font-family:"helvetica-neue-lt-std-93-black-extended";
-    src:url("https://candyfonts.com/wp-data/2019/04/06/51184/HelveticaNeueLTStd-BlkEx.otf") format("woff"),
+    src:url("https://candyfonts.com/wp-data/2019/04/06/51184/HelveticaNeueLTStd-BlkEx.otf") format("otf"),
     url("https://candyfonts.com/wp-data/2019/04/06/51184/HelveticaNeueLTStd-BlkEx.otf") format("opentype"),
     url("https://candyfonts.com/wp-data/2019/04/06/51184/HelveticaNeueLTStd-BlkEx.otf") format("truetype");
 }
@@ -78,7 +78,7 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: "helvetica-neue-lt-std-93-black-extended";
-    color: rgb(252, 247, 0);
+    color: rgb(251, 255, 0);
     font-size: 200px;
     font-kerning: -2px; 
     line-height: 1.1;
