@@ -39,7 +39,6 @@ p {
     
 }
 
-
 /*@font-face {
     font-family: 'monument_extendedregular';
     src: url('monumentextended-regular-webfont.woff2') format('woff2'),
@@ -58,39 +57,43 @@ p {
 
 .naam {
     font-family: "helvetica-neue-lt-std-93-black-extended";
-    font-size: 27px;
+    font-size: 1.8vw;
     font-kerning: -2px;
     line-height: 1.2;
     text-transform:none;
     color:rgb(0, 0, 0)}
+    box-sizing: border-box;
     
 
 .container {
     position: relative;
     text-align: center;
     top: 5%;
+    box-sizing: border-box;
 
 }
 
 .text {
     position: absolute;
-    top: 85%;
-    left: 50%;
+    top: 45%;
+    left: 45%;
     transform: translate(-50%, -50%);
     font-family: "helvetica-neue-lt-std-93-black-extended";
     color: rgb(251, 255, 0);
-    font-size: 200px;
-    font-kerning: -2px; 
+    font-size: 14vw;
     line-height: 1.1;
     text-align: center;
+    box-sizing: border-box;
    
 }
+
 
 .liggen {
     width: 100%;
     max-width: 900px;
     height: auto;
     float: center;
+    box-sizing: border-box;
 }
 
 .staan {
