@@ -14,14 +14,16 @@ body {
     padding-bottom: 20px;  
     display: grid;
     grid-template-columns: 1fr 3.5fr;
-    grid-template-areas: 
-            "naam midden";
+    grid-template-areas: "naam midden";
+    grid-template-rows: 1fr 4fr;
 }
 
 nav {
     display: contents;
     position: static;
+    grid-row: 1fr;
 }
+
 a {
     text-decoration-line: overline;
     color: #000000;
@@ -39,34 +41,45 @@ p {
     
 }
 
-/*@font-face {
-    font-family: 'monument_extendedregular';
-    src: url('monumentextended-regular-webfont.woff2') format('woff2'),
-         url('monumentextended-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+/*
 
 }*/
-
 @font-face{
     font-family:"helvetica-neue-lt-std-93-black-extended";
     src:url("https://candyfonts.com/wp-data/2019/04/06/51184/HelveticaNeueLTStd-BlkEx.otf") format("otf"),
     url("https://candyfonts.com/wp-data/2019/04/06/51184/HelveticaNeueLTStd-BlkEx.otf") format("opentype"),
     url("https://candyfonts.com/wp-data/2019/04/06/51184/HelveticaNeueLTStd-BlkEx.otf") format("truetype");
 }
+@font-face {
+    font-family: 'monument_extendedregular';
+    src: url('monumentextended-regular-webfont.woff2') format('woff2'),
+         url('monumentextended-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "HelveticaNeue-BlackExt";
+  
+    src: url("HelveticaNeueLTStd-BlkEx.woff") format("woff"), /* Modern Browsers */
+      url("HelveticaNeueLTStd-BlkEx.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
 
 .naam {
-    font-family: "helvetica-neue-lt-std-93-black-extended";
+    font-family: "HelveticaNeue-BlackExt";
     font-size: 1.8vw;
     font-kerning: -2px;
     line-height: 1.2;
     text-transform:none;
-    color:rgb(0, 0, 0);
-    box-sizing: border-box;
-}    
+    color:rgb(0, 0, 0)
+    
+}
 
 .container {
-    position: relative;
+    position: static;
     text-align: center;
     top: 5%;
     box-sizing: border-box;
@@ -78,7 +91,7 @@ p {
     top: 45%;
     left: 45%;
     transform: translate(-50%, -50%);
-    font-family: "helvetica-neue-lt-std-93-black-extended";
+    font-family: "HelveticaNeue-BlackExt";
     color: rgb(251, 255, 0);
     font-size: 14vw;
     line-height: 1.1;
@@ -94,13 +107,15 @@ p {
     height: auto;
     float: center;
     box-sizing: border-box;
+    padding: 2.5px;
 }
 
 .staan {
-    width: 100%;
+    width: 50%;
     max-width: 500px;
     height: auto;
     float: center;
-    
+    box-sizing: border-box;
+    padding: 2.5px;
     
 }
